@@ -4,7 +4,6 @@ import java.io.File;
 
 import data.Cipher;
 import data.Message;
-import utilities.FileUtility;
 
 public class Main {
 	

@@ -22,6 +22,7 @@ public class Message {
 	public void newKey()
 	{
 		this.cipher.buildCipher();
+		this.cipher.exportCipher();
 		this.output.export(cipher.encryptMessage(input.view()));
 	}
 	
